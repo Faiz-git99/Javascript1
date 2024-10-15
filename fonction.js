@@ -19,7 +19,19 @@ function agee (chiffre3, chiffre4) {
 let resultat2 = chiffre3 - chiffre4;
 return resultat2;
 }
-
 let age = (2026-1999);
 
-alert(age);
+function multiple(chiffre1, chiffre2)
+{
+    let calcul = chiffre1 * chiffre2;
+    return calcul;
+}
+let calcul = (20*10);
+
+console.log(calcul);
+
+let nombre = 10 ;
+nombre +=5;
+nombre /=3
+nombre -=1
+console.log(nombre);
