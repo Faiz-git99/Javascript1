@@ -2,19 +2,21 @@
 
 let ticketfilm = {
     nomfilm : "Koungou",
-    heurefilm : "17h00",
+    heurefilm : "19h00",
     placefilm : "12A",
     prixfilm : 7,
 };
 let Affichagefilm = "Voilà votre billet pour le film ";
 console.log(Affichagefilm + ticketfilm.nomfilm)
 
+// gestion de ticket cinéma
+
 let ticket = {
-    nomFilm : "Wakanda forever",
-    prix : 5,
-    numeroSalle : 3,
+    nomFilm : "Vikings",
+    prix : 6,
+    numeroSalle : 5,
 };
 let nom = "Moussa";
 
-console.log(" Bonjour "+ nom + "," +"votre film " +ticket.nomFilm +" est en salle " + ticket.numeroSalle)
+console.log(" Bonjour "+ nom + ", " +"votre film " +ticket.nomFilm +" est en salle " + ticket.numeroSalle)
 
