@@ -25,6 +25,7 @@ console.log("Le compteur est : "+ compteur); // affiche le compteur
 
 }
 
+                                      
 // i = 0; i est l'indice c'est à dire c'est le code de positionnement
 // i < nom.length permet d'afficher le nombre d'élément du tableau 
-// i++ permet d'ajouter +1 à chaque liste/tour
+// i++ permet d'ajouter +1 à chaque liste/tour c'est le raccourci 'i = i + 1'
